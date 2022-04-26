@@ -13,7 +13,7 @@
 
 #quote-box {
   background-color: #282c34;
-  width: 50%;
+  width: 80%;
   height: auto;
   color: white;
 }
@@ -42,4 +42,10 @@
 
 #twitter-icon:hover {
   background-color: #3c424f;
+}
+
+@media all and (min-width: 992px) {
+  #quote-box {
+    width: 50%;
+  }
 }

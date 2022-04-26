@@ -4,7 +4,6 @@ import Card from 'react-bootstrap/Card';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitter } from '@fortawesome/free-brands-svg-icons'
 import './App.css';
-import { faDigitalTachograph } from '@fortawesome/free-solid-svg-icons';
 
 function App() {
   const [quotes, setQuotes] = useState('');     //Hook for setting the state and updating it
@@ -70,6 +69,7 @@ function App() {
         </Card>
       </section>
     </div>
+    
   );
 }
 
